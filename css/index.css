@@ -1,0 +1,127 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.index-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url("../img/π巡首页-bj.png") no-repeat center/100% 100%;
+}
+.index-bg .login-bg {
+  width: 9.57333rem;
+  height: 4.77778rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -4.78667rem;
+  background: url("../img/login-bg.png") no-repeat center/100%;
+}
+.index-bg .login-bg .logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/π巡首页-logo.png") no-repeat center/100%;
+}
+.index-bg .login-bg .pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/login-pic.png") no-repeat center/100%;
+}
+.index-bg .login-bg .info {
+  position: absolute;
+  height: 2rem;
+  top: 50%;
+  margin-top: -1rem;
+  left: 5.55556rem;
+}
+.index-bg .login-bg .info .title {
+  font-size: 24px;
+}
+.index-bg .login-bg .info form {
+  width: 100%;
+  font-size: 0.2rem;
+}
+.index-bg .login-bg .info form > div {
+  margin-top: 20px;
+}
+.index-bg .login-bg .info form div.getfocus {
+  border-bottom: 1px solid #06b2e4;
+}
+.index-bg .login-bg .info form div.getfocus i {
+  color: #06b2e4;
+}
+.index-bg .login-bg .info form div.getfocus input::-webkit-input-placeholder {
+  color: #06b2e4;
+}
+.index-bg .login-bg .info form div.getfocus input::-moz-placeholder {
+  color: #06b2e4;
+}
+.index-bg .login-bg .info form div.getfocus input:-ms-input-placeholder {
+  color: #06b2e4;
+}
+.index-bg .login-bg .info form div.getfocus input::placeholder {
+  color: #06b2e4;
+}
+.index-bg .login-bg .info form .name {
+  color: #ccc;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.index-bg .login-bg .info form .name i {
+  position: relative;
+  top: 0.02rem;
+}
+.index-bg .login-bg .info form .name .username {
+  width: 2rem;
+  outline: none;
+  border: 0;
+}
+.index-bg .login-bg .info form .psd {
+  color: #ccc;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.index-bg .login-bg .info form .psd i {
+  position: relative;
+  top: 0.02rem;
+}
+.index-bg .login-bg .info form .psd .password {
+  width: 2rem;
+  outline: none;
+  border: 0;
+}
+.index-bg .login-bg .info form .remember {
+  font-size: 14px;
+  color: #757575;
+}
+.index-bg .login-bg .info form .remember .choose {
+  position: relative;
+  top: 3px;
+  width: 0.1rem;
+  height: 0.1rem;
+}
+.index-bg .login-bg .info form .remember .remberpsd {
+  margin-left: 10px;
+}
+.index-bg .login-bg .info form .btn-info {
+  width: 1.24444rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background-color: #06b2e4;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  position: absolute;
+  left: 50%;
+  margin-top: 15px;
+  margin-left: -0.62222rem;
+}
